@@ -27,16 +27,18 @@ public class DataDiri {
         System.out.print("Alamat: ");
         // menggunakan scanner2
         alamat = keyboard.next();
-        System.out.print("Alamat: ");
-        absen = keyboard.nextInt();
         System.out.print("Absen: ");
         usia = keyboard.nextInt();
         System.out.print("Usia: ");
+        absen = keyboard.nextInt();
+        System.out.print("Absen: ");
         // Menampilkan apa yang sudah simpan di variabel
         System.out.println("------------------");
         System.out.println("Nama Siswa:" + nama);
         System.out.println("Alamat: " + alamat);
         System.out.println("Absen: " + absen);
-        System.out.println("Usia: " + usia+ "as tahun");
-    }    
+        System.out.println("Usia: " + usia+ " tahun");
+        }
 }
+      
+
